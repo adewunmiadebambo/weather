@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background: #222;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins';
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.container {
+  max-width: 400px;
+  height: 100vh;
+}
+
+.change-location label{
+  background-color: #fff;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
